@@ -1,0 +1,23 @@
+{
+  "author": "Jianbin Chan <chan.jianbin@gmail.com> (http://jianbin.me)",
+  "name": "matou.it-api",
+  "description": "API server for matou.it.",
+  "keywords": [
+    "matou.it"
+  ],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oneplace/matou.it-api"
+  },
+  "main": "./",
+  "engines": {
+    "node": ">= v0.6.x"
+  },
+  "dependencies": {
+    "apiserver": "0.2.x"
+  },
+  "devDependencies": {
+    "mocha": "1.0.x"
+  }
+}
