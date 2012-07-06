@@ -1,13 +1,12 @@
 var mongoose = require('mongoose');
-var conn = require('../database').getConnection;
+var conn = require('../database').getConnection();
 var Schema = mongoose.Schema;
-var types = Schema.types;
 
 var UserSchema = new Schema({
-    id          : types.ObjectId
-    ,username   : types.String
-    ,password   : types.String
-    ,email      : types.String
+    id          : Schema.ObjectId
+    ,username   : String
+    ,password   : String
+    ,email      : String
 });
 var UserModel = conn.model("User", UserSchema);
 
